@@ -1,81 +1,91 @@
-
-    body{
-        background-image: linear-gradient(to bottom, rgb(160, 103, 233), #6868C6);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 10px;
-        height: 100vh;
-
-        font-family: sans-serif;
-        
-        
-        
-    }
-
-    main{
-        
-        background-color: white;
-        width: 34em;
-        border-radius: 30px;
-        height: 100vh;
-        margin-top: 11em;
-        padding-bottom: 10px;
-    }
-
-    h1{
-        padding-bottom: 50px;
-        text-align: center;
-        font-size: 3em;
-    }
-
-    h2{
-        padding-bottom: 20px;
-        width: 100vw;
-        font-weight: lighter;
-    }
-
-    .negrito{
-        font-weight: bold;
-    }
-    p{
-        font-size: 13px;
-        color: gray;
-        padding-bottom: 10px;
-    }
-    #principal {
-        position: relative;
-        width: 67%;
-        height: 36%;
-        bottom: 109px;
-        left: 40px;
-
-    }
-
-    article{
-        margin-top: -104px;
-        padding-left: 10px;
-
-        font-size: 9px;
-        font-weight: lighter;
-
-        
-    }
-    .imagemp{
-        position: absolute;
-        left: 71%;
-        
-    }
-    .invisible{
-        display: none;
-    }
+*{
+    margin: 0;
+    border: 0;
     
+}
+
+body{
     
-    .seta{
-        
-        transform: rotate(180deg);
-        
-    }
+    background-image: linear-gradient(to bottom, rgb(160, 103, 233), #6868C6);
+    font-size: 10px;
+    font-family: sans-serif; 
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+main{
+    
+    background-color: white;
+    width: 34em;
+    border-radius: 30px;
+    height: 100vh;
+    margin-top: 16em;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    
+}
+
+#principal {
+    position: relative;
+    width: 69%;
+    height: 31%;
+    bottom: 18%;
+    left: 13%;
+
+}
+
+article{
+    margin-top: -104px;
+    padding-left: 10px;
+    font-size: 9px;
+    font-weight: lighter;
+
+    
+}
+
+h1{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.negrito{
+    font-weight: bold;
+}
+p{
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.imagemp{
+    position: absolute;
+    left: 21em;
+    
+}
+.invisible{
+    display: none;
+}
+
+
+.seta{
+    
+    transform: rotate(180deg);
+    
+}
+
+
 
 
 
